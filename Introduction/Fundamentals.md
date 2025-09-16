@@ -122,3 +122,45 @@ For root user:
 - Root access is typically restricted to system administrators
 - Root access may be required to install, start or stop an application
 - Day to day activities will be performed using a normal account
+
+## Basic Linux Commands
+- **pwd** - Display the presnet working directory. Current directory that you are in
+- **cd** - Changes the current directory to dir. *cd {dir}*
+- **ls** - Lists directory contents
+  - **ls -l** - List directory contents using *a*
+- **cat** - Display the contents of files, combine multiple files, or create new ones
+- **clear** - Clears the screen
+- **man** - Displays the online manual for command
+  - **space** - Display the next page
+  - **q** - Command to quit
+
+> ⚠️ **Warning**  
+> Linux commands, directories and file are **case-sensitive**.
+
+## Teach Yourself to Fish
+
+Getting Help at the Command Line
+
+### Display documentation
+-  **man ls** - Navigating man pages
+   -  **g** - Move to the top of the page
+   -  **space** - Next page
+   -  **G** - Move to the bottom of the page
+   -  **-k {search}** - Search for the command. For instance *man -k calendar*
+   -  **q** - Quit
+   
+### Environment variables
+- Storage location that has a name and value
+- Typically uppercase
+- Access the contents by executing:
+  - echo $VAR_NAME
+
+### Path
+- An environment variable 
+- Controls the command search path
+- Contains a list of directories
+- **which** - To know the location or the full path to the command that you're executing
+
+### Get Help
+- Add *-help* to a command to get help, Try *-h* if --help does not work
+
