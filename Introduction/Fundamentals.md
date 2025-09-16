@@ -1,10 +1,10 @@
 # Linux Administration
 
-### What is Linux?
+## What is Linux?
 
 Linux is an operating system and the core of a Linux distribution.
 
-### What is a Linux distribution?
+## What is a Linux distribution?
 
 A distribution (distro) is the flavor or toppings on top of **Linux**. Think of Linux as ice cream, and a distro as the flavor, toppings, or how it is served.
 
@@ -13,7 +13,7 @@ Distribution provides different extras, such as:
 - Software installation and mangement applications
 - Security software
 
-### Linux Directory Structure
+## Linux Directory Structure
 - **/** - "Root", the top of the file system hierarchy
 - **/bin** - Binaries and other executable programs
 - **/etc** - System configuration files
@@ -90,3 +90,35 @@ Company focused sample
 - **/opt/google** 
 - **/opt/google/chrome**
 - **/opt/google/earth**
+
+## Shell
+
+Default interface to Linux. Can be access via terminal or CLI.
+
+### Command Line Interface vs GUI
+- CLI is more powerful than interface - For instance, renaming 100 files in a GUI will require you to click and rename each file, on the other hand you can just run a command to update all files.
+- CLI is always available
+- Server distributions do not include GUIs
+- Connect over Network
+- Desktop distribution have GUIs and CLIs
+
+### Prompt
+
+For normal user: 
+[jp@linuxsvr ~]$
+
+For root user: 
+[jp@linuxsvr:~]#
+
+*~* represents a **home** directory
+
+- *~jp~* = /home/jp
+- *~root* = /root
+- *~ftp* = /var/ftp
+
+### Root (Superuser)
+- Administrator account
+- Normal accounts can only do a subset of the things root can do
+- Root access is typically restricted to system administrators
+- Root access may be required to install, start or stop an application
+- Day to day activities will be performed using a normal account
