@@ -11,3 +11,6 @@ This repository provides an introduction to Linux and its administration. It cov
 
 This repository is suitable for beginners and those looking to strengthen their foundational knowledge of Linux administration.
 
+---
+
+*Inspired by Jason Cannon and Christine Bresnahan*

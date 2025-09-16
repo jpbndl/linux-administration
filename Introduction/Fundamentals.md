@@ -1,11 +1,9 @@
 # Linux Administration
 
 ## What is Linux?
-
 Linux is an operating system and the core of a Linux distribution.
 
 ## What is a Linux distribution?
-
 A distribution (distro) is the flavor or toppings on top of **Linux**. Think of Linux as ice cream, and a distro as the flavor, toppings, or how it is served.
 
 Distribution provides different extras, such as:
@@ -59,40 +57,34 @@ Distribution provides different extras, such as:
 ### Application Directory Structures
 
 User application sample
-
 - **/usr/local/jpbndl/bin** - Binaries for *jpbndl* application
 - **/usr/local/jpbndl/etc** - Config files for *jpbndl* application
 - **/usr/local/jpbndl/lib** - Libraries for *jpbndl* application
 - **/usr/local/jpbndl/log** - Log files for *jpbndl* application
 
 Third party application sample
-
 - **/opt/avg/bin** - Binaries for *avg* application
 - **/opt/avg/etc** - Config files for *avg* application
 - **/opt/avgl/lib** - Libraries for *avg* application
 - **/opt/avg/log** /- Log files for *avg* application
 
 Mixed directories sample
-
 - **/etc/opt/myapp** 
 - **/opt/myapp/etc**
 - **/opt/myapp/lib**
 - **/var/opt/myapp**
 
 Shared directory sample
-
 - **/usr/local/bin/myapp**
 - **/usr/local/etc/myapp.conf**
 - **/usr/local/lib/libmyspp.so**
 
 Company focused sample
-
 - **/opt/google** 
 - **/opt/google/chrome**
 - **/opt/google/earth**
 
 ## Shell
-
 Default interface to Linux. Can be access via terminal or CLI.
 
 ### Command Line Interface vs GUI
@@ -103,7 +95,6 @@ Default interface to Linux. Can be access via terminal or CLI.
 - Desktop distribution have GUIs and CLIs
 
 ### Prompt
-
 For normal user: 
 [jp@linuxsvr ~]$
 
@@ -137,11 +128,10 @@ For root user:
 > ⚠️ **Warning**  
 > Linux commands, directories and file are **case-sensitive**.
 
-## Teach Yourself to Fish
-
+## Learn How To Fish 
 Getting Help at the Command Line
 
-### Display documentation
+### Display Documentation
 -  **man ls** - Navigating man pages
    -  **g** - Move to the top of the page
    -  **space** - Next page
@@ -149,7 +139,7 @@ Getting Help at the Command Line
    -  **-k {search}** - Search for the command. For instance *man -k calendar*
    -  **q** - Quit
    
-### Environment variables
+### Environment Variables
 - Storage location that has a name and value
 - Typically uppercase
 - Access the contents by executing:
@@ -164,3 +154,50 @@ Getting Help at the Command Line
 ### Get Help
 - Add *-help* to a command to get help, Try *-h* if --help does not work
 
+## Working with Directories
+- Containers for other files and directories
+- Provide a tree like structure
+- Can be access by name or shortcut
+
+### Directory Shortcuts
+- **.** - Current directory
+- **..** - Parent directory
+- **cd** - Change to previous directory
+- **/** - Directory separator
+
+### Executing Commands
+Execute command in $PATH, in full path or outside the $PATH
+
+- echo $PATH
+- cat mydata.txt -
+- /bin/cat mydata.txt
+
+### Creating and Removing Directories
+- **mkdir* [-p] dir** - Create a directory
+- **rmdir* [-p] dir** - Remove a directory
+- **rm -rf dir** - Recursively removes directory
+
+### ls Command
+- **ls -l** - List all files in long format
+- Hidden files begin with a period. Sometimes called "dot files". Hidden files are not displayed by default
+  - **-a** - Command is used to show hidden files. Example, *ls -la*
+- **ls -F** - Used to reveal file types
+  - / - Directory
+  - @ - Link
+  - * - Executable
+- **ls -t** - List files by time
+- **ls -r** - Reverse order
+- **ls -latr** - Long listing including all files reverse sorted by time
+- **ls -R** - List files recursively. Tree commands works similarly with the -R command.
+  - **tree -d**
+  - **tree -C**
+- **ls -d** - List directory name, not contents
+- **ls --color** - Colorize the output
+- **""** - Use quotes to handle file name with space. For example, ls -l "my file.txt"
+
+### Symbolic Links
+- A link points to the actual file or directory
+- Use the link as if it were the file
+- A link can be used to create a shortcut.
+  - Use for long file or directory names
+  - Use to indicate the current version of software
