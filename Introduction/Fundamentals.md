@@ -50,3 +50,43 @@ Distribution provides different extras, such as:
 - **/srv** - Contains data which is served by the system
 - **/srv/www** - Web server files
 - **/srv/ftp** - FTP files
+- **/usr/bin** - Binaries and other executable programs
+- **/usr/lib** - Libraries
+- **/usr/local** - Locally installed software that is not part of the base operating system
+- **/usr/sbin** - System administration binaries
+- **/varlog** - Log files
+
+### Application Directory Structures
+
+User application sample
+
+- **/usr/local/jpbndl/bin** - Binaries for *jpbndl* application
+- **/usr/local/jpbndl/etc** - Config files for *jpbndl* application
+- **/usr/local/jpbndl/lib** - Libraries for *jpbndl* application
+- **/usr/local/jpbndl/log** - Log files for *jpbndl* application
+
+Third party application sample
+
+- **/opt/avg/bin** - Binaries for *avg* application
+- **/opt/avg/etc** - Config files for *avg* application
+- **/opt/avgl/lib** - Libraries for *avg* application
+- **/opt/avg/log** /- Log files for *avg* application
+
+Mixed directories sample
+
+- **/etc/opt/myapp** 
+- **/opt/myapp/etc**
+- **/opt/myapp/lib**
+- **/var/opt/myapp**
+
+Shared directory sample
+
+- **/usr/local/bin/myapp**
+- **/usr/local/etc/myapp.conf**
+- **/usr/local/lib/libmyspp.so**
+
+Company focused sample
+
+- **/opt/google** 
+- **/opt/google/chrome**
+- **/opt/google/earth**
