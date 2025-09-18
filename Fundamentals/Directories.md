@@ -1,14 +1,21 @@
 
 # Linux Directory Structure
-- **/** - "Root", the top of the file system hierarchy
-- **/bin** - Binaries and other executable programs
-- **/etc** - System configuration files
-- **/home** - Home directories. 
-- **/opt** - Optional or third party software
-- **/tmp** - Temporary space, typically cleared on reboot
-- **/usr** - User related programs. Can also have a sub directory like "/bin"
-- **/var** - Variable data, most notably log files from the operating system or applications
-  
+
+## Table of Contents
+- [Linux Directory Structure](#linux-directory-structure)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Comprehensive Directory Listing](#comprehensive-directory-listing)
+  - [Application Directory Structures](#application-directory-structures)
+  - [Commands](#commands)
+    - [Find Command](#find-command)
+      - [Patterns](#patterns)
+      - [Examples](#examples)
+    - [Locate Command](#locate-command)
+      - [Examples](#examples-1)
+    - [Creating and Removing Directories](#creating-and-removing-directories)
+
+## Overview
 ```
 /
 ├── bin

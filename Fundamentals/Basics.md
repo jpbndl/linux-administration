@@ -1,5 +1,25 @@
 # Linux Administration
 
+## Table of Contents
+- [What is Linux?](#what-is-linux)
+- [What is a Linux distribution?](#what-is-a-linux-distribution)
+- [Shell](#shell)
+  - [Command Line Interface vs GUI](#command-line-interface-vs-gui)
+  - [Prompt](#prompt)
+  - [Root (Superuser)](#root-superuser)
+- [Basic Linux Commands](#basic-linux-commands)
+- [Learn How To Fish](#learn-how-to-fish)
+  - [Display Documentation](#display-documentation)
+  - [Environment Variables](#environment-variables)
+  - [Path](#path)
+  - [Get Help](#get-help)
+- [Working with Directories](#working-with-directories)
+  - [Directory Shortcuts](#directory-shortcuts)
+  - [Executing Commands](#executing-commands)
+  - [Creating and Removing Directories](#creating-and-removing-directories)
+  - [ls Command](#ls-command)
+  - [Symbolic Links](#symbolic-links)
+
 ## What is Linux?
 Linux is an operating system and the core of a Linux distribution.
 

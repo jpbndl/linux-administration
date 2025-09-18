@@ -96,6 +96,41 @@ gunzip data.gz
 ---
 
 
+# Files and Editors
+
+## Table of Contents
+- [Files](#files)
+    - [Delete Files](#delete-files)
+    - [Copy Files](#copy-files)
+    - [Move and Rename Files](#move-and-rename-files)
+    - [Sort Data](#sort-data)
+    - [Creating a Collection of Files](#creating-a-collection-of-files)
+    - [Compressing Files To Save Space](#compressing-files-to-save-space)
+    - [Disk Usage](#disk-usage)
+- [Files and Editors](#files-and-editors)
+  - [Table of Contents](#table-of-contents)
+- [Nano Editor](#nano-editor)
+    - [Displaying the Contents of Files](#displaying-the-contents-of-files)
+    - [Head and Tail](#head-and-tail)
+    - [Viewing Files in Real Time](#viewing-files-in-real-time)
+      - [Examples](#examples)
+    - [Edit files using Nano](#edit-files-using-nano)
+- [Vi Editor](#vi-editor)
+    - [Vi Command Mode and Navigation](#vi-command-mode-and-navigation)
+    - [Vi Insert Mode](#vi-insert-mode)
+    - [Vi Line Mode](#vi-line-mode)
+    - [Vi Repeating Commands](#vi-repeating-commands)
+    - [Vi Deleting Text](#vi-deleting-text)
+    - [Vi Changing Text](#vi-changing-text)
+    - [Vi Copying and Pasting](#vi-copying-and-pasting)
+    - [Vi Undo / Redo](#vi-undo--redo)
+    - [Vi Searching](#vi-searching)
+    - [Vi Tutor](#vi-tutor)
+- [Emacs](#emacs)
+    - [Emacs Edit File](#emacs-edit-file)
+    - [Emacs Commands](#emacs-commands)
+    - [Emacs Navigation](#emacs-navigation)
+
 # Nano Editor
 - Nano is a simple editor
 - Easy to learn

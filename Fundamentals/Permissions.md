@@ -1,3 +1,22 @@
+# Permissions
+
+## Table of Contents
+- [Permissions](#permissions)
+  - [Table of Contents](#table-of-contents)
+  - [Permissions](#permissions-1)
+  - [Permission Categories](#permission-categories)
+  - [Groups](#groups)
+  - [How to read Permissions](#how-to-read-permissions)
+  - [Changing Permissions](#changing-permissions)
+  - [Numeric Based Permission](#numeric-based-permission)
+  - [Commonly Used Permissions](#commonly-used-permissions)
+  - [Working with Groups](#working-with-groups)
+  - [Directory Permissions](#directory-permissions)
+  - [File Creation Mask](#file-creation-mask)
+    - [The umask Command](#the-umask-command)
+    - [Common unmask modes](#common-unmask-modes)
+    - [Special Modes](#special-modes)
+
 ## Permissions
 - **r** - Read allows file\directory to be read
 - **w** - Write allows file\directory to be read
