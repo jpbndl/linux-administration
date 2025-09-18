@@ -1,5 +1,15 @@
 # Files and Editors
 
+File management and text editing are fundamental skills in Linux administration. This guide covers essential file operations and the most commonly used text editors in Linux environments. Mastering these tools is crucial for:
+
+- **System configuration** - Edit configuration files and scripts
+- **Log analysis** - View and analyze system logs
+- **File organization** - Manage files, directories, and archives
+- **Automation** - Create and modify shell scripts
+- **Troubleshooting** - Examine system files and make corrections
+
+Linux provides powerful command-line tools for file manipulation and several text editors ranging from simple (nano) to advanced (vi/vim, emacs). Each has its strengths and use cases.
+
 ## Table of Contents
 - [Files](#files)
   - [Delete Files](#delete-files)
